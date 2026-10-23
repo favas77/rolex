@@ -1,0 +1,218 @@
+/* General Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, serif;
+}
+
+body {
+    background: #0e0e11;
+    color: #fff;
+}
+
+
+/* Header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    border-bottom: 1px solid #d4b87a33;
+    background: #0e0e11;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    font-size: 28px;
+    letter-spacing: 3px;
+    color: #e8c88a;
+    font-weight: bold;
+}
+
+nav a {
+    color: #d4c19a;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+
+/* Hero Section */
+
+.hero {
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    padding: 0 60px;
+    background: linear-gradient(
+        90deg,
+        #0e0e11 50%,
+        #16161a 50%
+    );
+}
+
+.hero-text {
+    width: 50%;
+}
+
+.tag {
+    border: 1px solid #e8c88a44;
+    display: inline-block;
+    padding: 6px 12px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    color: #e8c88a;
+    margin-bottom: 20px;
+}
+
+.hero-text h1 {
+    font-size: 58px;
+    line-height: 1.1;
+    color: #e8c88a;
+    font-weight: 300;
+}
+
+.hero-text h1 span {
+    color: #fff;
+    font-size: 32px;
+    display: block;
+    margin-top: 10px;
+    font-family: Arial, sans-serif;
+}
+
+.hero-text p {
+    color: #a9a9a9;
+    margin: 20px 0 30px;
+    line-height: 1.6;
+    font-family: Arial, sans-serif;
+    max-width: 450px;
+}
+
+
+/* Buttons */
+
+.btns {
+    display: flex;
+    gap: 15px;
+}
+
+.btn-primary {
+    background: #e8c88a;
+    color: #0e0e11;
+    padding: 14px 28px;
+    border-radius: 30px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 1px solid #e8c88a;
+    color: #e8c88a;
+    padding: 14px 28px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+
+/* Hero Image */
+
+.hero-img {
+    width: 50%;
+    text-align: center;
+}
+
+.hero-img img {
+    width: 80%;
+    max-width: 500px;
+    filter: drop-shadow(
+        0 20px 40px rgba(0, 0, 0, 0.8)
+    );
+    border-radius: 20px;
+}
+
+
+/* Featured Watches */
+
+.featured {
+    padding: 60px;
+    background: #141419;
+    text-align: center;
+}
+
+.featured h2 {
+    color: #e8c88a;
+    font-weight: 300;
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+
+/* Watch Cards */
+
+.cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.card {
+    background: #1c1c21;
+    padding: 30px;
+    border-radius: 15px;
+    width: 300px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border: 1px solid #e8c88a44;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+.card h3 {
+    color: #e8c88a;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.card p {
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    color: #aaa;
+    margin-top: 8px;
+}
+
+.price {
+    color: #e8c88a !important;
+    font-weight: bold !important;
+    margin-top: 10px !important;
+}
+
+
+/* Footer */
+
+footer {
+    padding: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #777;
+    border-top: 1px solid #333;
+    font-family: Arial, sans-serif;
+}
